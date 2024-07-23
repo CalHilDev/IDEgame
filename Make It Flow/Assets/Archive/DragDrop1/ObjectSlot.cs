@@ -20,7 +20,7 @@ public class ObjectSlot : MonoBehaviour, IDropHandler
         if(eventData.pointerDrag != null)
         {
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = GetComponent<RectTransform>().anchoredPosition;
-            //Debug.Log(dragDrop.componentType);
+            Debug.Log(dragDrop.componentType);
             correctCheck.GetCurrentValue(dragDrop.componentType);
             //allows component to snap to item slot - checks the type assigned to component
         }
