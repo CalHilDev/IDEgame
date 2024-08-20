@@ -500,6 +500,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AnswerSlot (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5618888914303712863, guid: 576805afc2223a14980b1c9c7dece90b, type: 3}
+      propertyPath: correctValue
+      value: Consumer
+      objectReference: {fileID: 0}
     - target: {fileID: 5802982868165075599, guid: 576805afc2223a14980b1c9c7dece90b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -787,6 +791,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Producer
       objectReference: {fileID: 0}
+    - target: {fileID: 584598796817217606, guid: 7c280ff8cd983c14f9fd8dd736a744ff, type: 3}
+      propertyPath: m_TagString
+      value: Producer
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c280ff8cd983c14f9fd8dd736a744ff, type: 3}
 --- !u!1001 &1449901542
@@ -886,6 +894,10 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 0543310a83ac9cf4485973fbd2db0ae0, type: 3}
     - target: {fileID: 584598796817217606, guid: 7c280ff8cd983c14f9fd8dd736a744ff, type: 3}
       propertyPath: m_Name
+      value: Consumer
+      objectReference: {fileID: 0}
+    - target: {fileID: 584598796817217606, guid: 7c280ff8cd983c14f9fd8dd736a744ff, type: 3}
+      propertyPath: m_TagString
       value: Consumer
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1012,6 +1024,10 @@ PrefabInstance:
     - target: {fileID: 2689213300032610329, guid: 576805afc2223a14980b1c9c7dece90b, type: 3}
       propertyPath: m_Name
       value: AnswerSlot (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618888914303712863, guid: 576805afc2223a14980b1c9c7dece90b, type: 3}
+      propertyPath: correctValue
+      value: Converter
       objectReference: {fileID: 0}
     - target: {fileID: 5802982868165075599, guid: 576805afc2223a14980b1c9c7dece90b, type: 3}
       propertyPath: m_Pivot.x
@@ -1226,6 +1242,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Converter
       objectReference: {fileID: 0}
+    - target: {fileID: 584598796817217606, guid: 7c280ff8cd983c14f9fd8dd736a744ff, type: 3}
+      propertyPath: m_TagString
+      value: Converter
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c280ff8cd983c14f9fd8dd736a744ff, type: 3}
 --- !u!1001 &651698570629398716
@@ -1238,6 +1258,10 @@ PrefabInstance:
     - target: {fileID: 2689213300032610329, guid: 576805afc2223a14980b1c9c7dece90b, type: 3}
       propertyPath: m_Name
       value: AnswerSlot
+      objectReference: {fileID: 0}
+    - target: {fileID: 5618888914303712863, guid: 576805afc2223a14980b1c9c7dece90b, type: 3}
+      propertyPath: correctValue
+      value: Producer
       objectReference: {fileID: 0}
     - target: {fileID: 5802982868165075599, guid: 576805afc2223a14980b1c9c7dece90b, type: 3}
       propertyPath: m_Pivot.x
